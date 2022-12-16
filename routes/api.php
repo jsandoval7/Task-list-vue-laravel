@@ -27,3 +27,7 @@ Route::prefix('/item')->group( function (){
     Route::delete('/{id}', [ItemController::class, 'destroy']);
     }
 );
+
+Route::get('/', function () {
+    return view('app');
+});
