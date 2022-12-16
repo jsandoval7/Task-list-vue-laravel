@@ -106,7 +106,7 @@ class ItemController extends Controller
             return "Item deleted successfully";
         }
     
-        return "Item not founddddd";
+        return "Item not found";
 
     }
 }
